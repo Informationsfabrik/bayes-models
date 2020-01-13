@@ -5,9 +5,7 @@ Based on https://docs.pymc.io/notebooks/getting_started.html
 # %%
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 import pymc3 as pm
-import scipy
 
 from pprint import pprint
 
