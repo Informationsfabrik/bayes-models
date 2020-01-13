@@ -57,6 +57,7 @@ with basic_model:
     # Likelihood (sampling distribution) of observations
     Y_obs = pm.Normal("Y_obs", mu=mu, sigma=sigma, observed=Y)
 
+pm.model_to_graphviz(basic_model)
 
 # %% FIND MOST LIKELY PARAMETERS
 map_estimate = pm.find_MAP(model=basic_model)
