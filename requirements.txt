@@ -1,0 +1,6 @@
+pymc3
+seaborn
+# dev
+black
+flake8
+rope
